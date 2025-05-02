@@ -16,7 +16,7 @@ services:
     image: ghost:latest
     restart: unless-stopped
     ports:
-      - '2368:2368'
+      - '2368:3001'
     volumes:
       - ./ghost/content:/var/lib/ghost/content
     environment:
