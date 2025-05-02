@@ -61,3 +61,12 @@
 {"name":"Log","hostname":"1106c059aeab","pid":1,"level":40,"version":"5.118.1","msg":"Ghost has shut down","time":"2025-05-02T23:47:05.286Z","v":0}
 {"name":"Log","hostname":"1106c059aeab","pid":1,"level":40,"version":"5.118.1","msg":"Your site is now offline","time":"2025-05-02T23:47:05.286Z","v":0}
 {"name":"Log","hostname":"1106c059aeab","pid":1,"level":40,"version":"5.118.1","msg":"Ghost was running for a few seconds","time":"2025-05-02T23:47:05.288Z","v":0}
+{"name":"Log","hostname":"1106c059aeab","pid":1,"level":30,"version":"5.118.1","msg":"Ghost is running in production...","time":"2025-05-02T23:47:12.898Z","v":0}
+{"name":"Log","hostname":"1106c059aeab","pid":1,"level":30,"version":"5.118.1","msg":"Your site is now available on http://localhost:2368/","time":"2025-05-02T23:47:12.899Z","v":0}
+{"name":"Log","hostname":"1106c059aeab","pid":1,"level":30,"version":"5.118.1","msg":"Ctrl+C to shut down","time":"2025-05-02T23:47:12.899Z","v":0}
+{"name":"Log","hostname":"1106c059aeab","pid":1,"level":30,"version":"5.118.1","msg":"Ghost server started in 0.541s","time":"2025-05-02T23:47:12.900Z","v":0}
+{"name":"Log","hostname":"1106c059aeab","pid":1,"level":50,"version":"5.118.1","err":{"id":500,"domain":"http://localhost:2368","code":"ECONNREFUSED","name":"DatabaseError","statusCode":500,"level":"critical","message":"connect ECONNREFUSED 127.0.0.1:3306","help":"\"Unknown database error\"","stack":"Error: connect ECONNREFUSED 127.0.0.1:3306\n    at /var/lib/ghost/versions/5.118.1/node_modules/knex-migrator/lib/database.js:57:19\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)","hideStack":false},"msg":"connect ECONNREFUSED 127.0.0.1:3306","time":"2025-05-02T23:47:13.078Z","v":0}
+{"name":"Log","hostname":"1106c059aeab","pid":1,"level":40,"version":"5.118.1","msg":"Ghost is shutting down","time":"2025-05-02T23:47:13.079Z","v":0}
+{"name":"Log","hostname":"1106c059aeab","pid":1,"level":40,"version":"5.118.1","msg":"Ghost has shut down","time":"2025-05-02T23:47:13.080Z","v":0}
+{"name":"Log","hostname":"1106c059aeab","pid":1,"level":40,"version":"5.118.1","msg":"Your site is now offline","time":"2025-05-02T23:47:13.081Z","v":0}
+{"name":"Log","hostname":"1106c059aeab","pid":1,"level":40,"version":"5.118.1","msg":"Ghost was running for a few seconds","time":"2025-05-02T23:47:13.082Z","v":0}
