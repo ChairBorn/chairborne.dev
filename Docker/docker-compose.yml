@@ -11,7 +11,7 @@ services:
       - ./data:/data
       - ./letsencrypt:/etc/letsencrypt
     networks:
-      tele-net:
+      chairborne-net:
         ipv4_address: 10.0.0.2
     env_file:
       - .env
@@ -25,7 +25,7 @@ services:
     volumes:
       - ./ghost/content:/var/lib/ghost/content
     networks:
-      tele-net:
+      chairborne-net:
         ipv4_address: 10.0.0.3
     environment:
       - url=http://localhost:2368
@@ -38,3 +38,12 @@ volumes:
 data:
 letsencrypt:
 ghost:
+
+networks:
+  chairborne-net:
+    ipam:
+      driver: default
+      config:
+        - subnet: 10.0.0.0/24
+          ip_range: 10.0.0.0/24
+          gateway: 10.0.0.1
