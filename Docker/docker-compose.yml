@@ -27,8 +27,8 @@ services:
     networks:
       chairborne-net:
         ipv4_address: 10.0.0.3
-    environment:
-      - url=http://localhost:2368
+    # environment:
+    #   - url=http://localhost:2368
     env_file:
       - .env
     depends_on:
