@@ -20,8 +20,8 @@ services:
     container_name: ghost
     image: ghost:latest
     restart: unless-stopped
-    # ports:
-    #   - '3001:2368'
+    ports:
+      - '3001:2368'
     volumes:
       - ./ghost/content:/var/lib/ghost/content
     networks:
@@ -32,7 +32,9 @@ services:
     env_file:
       - .env
     depends_on:
-      - npm
+      npm:
+        condition: service_healthy
+        restart: true
 
 volumes:
   data:

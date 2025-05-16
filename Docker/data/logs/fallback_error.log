@@ -1,1 +1,0 @@
-2025/05/02 23:50:23 [error] 186#186: *5 open() "/var/www/html/admin" failed (2: No such file or directory), client: 172.19.0.1, server: localhost-nginx-proxy-manager, request: "GET /admin HTTP/1.1", host: "127.0.0.1"

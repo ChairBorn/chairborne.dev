@@ -1,7 +1,0 @@
-[02/May/2025:23:48:48 +0000] 400 - GET http 127.0.0.1 "/" [Client 172.19.0.1] [Length 654] [Gzip -] "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" "-"
-[02/May/2025:23:48:49 +0000] 400 - GET http 127.0.0.1 "/favicon.ico" [Client 172.19.0.1] [Length 654] [Gzip -] "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" "http://127.0.0.1:443/"
-[02/May/2025:23:50:03 +0000] 400 - GET http 127.0.0.1 "/" [Client 172.19.0.1] [Length 654] [Gzip -] "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" "-"
-[02/May/2025:23:50:03 +0000] 400 - GET http 127.0.0.1 "/favicon.ico" [Client 172.19.0.1] [Length 654] [Gzip -] "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" "http://127.0.0.1:443/"
-[02/May/2025:23:50:08 +0000] 200 - GET http 127.0.0.1 "/" [Client 172.19.0.1] [Length 568] [Gzip 1.86] "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" "-"
-[02/May/2025:23:50:09 +0000] 400 - GET http 127.0.0.1 "/favicon.ico" [Client 127.0.0.1] [Length 230] [Gzip -] "-" "-"
-[02/May/2025:23:50:23 +0000] 404 - GET http 127.0.0.1 "/admin" [Client 172.19.0.1] [Length 183] [Gzip 3.21] "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" "-"
